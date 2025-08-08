@@ -1,38 +1,12 @@
-🏡 Zentroo – Real Estate Platform
-Zentroo is a modern, responsive real estate web application built with React and Tailwind CSS.
-It provides a clean and interactive interface for users to buy, rent, or sell properties, explore agents, and search for homes in a specific location.
+# React + Vite
 
-✨ Features
-Interactive Navigation Menus – Hover-based dropdowns for Buy, Rent, Sell, and Agent sections.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Search Functionality – Search for properties using address, neighborhood, city, or ZIP code.
+Currently, two official plugins are available:
 
-Dynamic Home Cards – Showcasing property images with hover effects.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-User Authentication Context – Displays "Sign In" or "Welcome, [username]" dynamically.
+## Expanding the ESLint configuration
 
-Responsive Design – Fully responsive layout optimized for all devices.
-
-Call-to-Action Sections – For buying, selling, or renting a home.
-
-Footer with Social Links – Includes quick links and social media icons.
-
-🛠 Tech Stack
-Frontend: React (with Hooks), React Router
-
-Styling: Tailwind CSS
-
-State Management: useState & Context API
-
-Assets: External images + local assets
-
-
-# Screenshots:
-<img width="1920" height="1080" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/b7b282bc-3eb4-4682-ba9b-4ab2a7f2da7e" />
-
-<img width="1920" height="1080" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/cf14e039-bdad-4517-8727-5dcb4aaacbe4" />
-
-<img width="1920" height="1080" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/0e1560f8-b4c0-4250-bb3f-e6ed02495282" />
-
-<img width="1920" height="1080" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/07164c8f-8af3-48a3-8178-16e092805253" />
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
